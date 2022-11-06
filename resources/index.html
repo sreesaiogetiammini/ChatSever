@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MSD CS 6011 Chat Server</title>
+    <link rel="stylesheet" type="text/css" href="chatServer.css" />
+    <script type="text/javascript" src="chatServer.js"></script>
+</head>
+<body>
+    <div id="mainDiv">
+        <h1 style="position: relative;left: 1000px"> Welcome to MSD CS 6011 Chat Server </h1>
+        <br><br>
+        <div class="userName">
+                  <label style="color:black;font-size:35px;margin:10px;">UserName </label>
+                  <input id="userNameId" style="width: 200px;height: 30px;margin-right:100px;" tabIndex="0" type="text" maxLength="15" title="chat username"  placeholder="Type username here ..."></input>
+                  <label style=" margin:10px;color:black;font-size:35px;">ChatRoom </label>
+                  <input id="chatRoomId" style="width: 500px;height: 30px;margin-bottom:10px;" placeholder="Type chatroom here ..." tabIndex="0" type="text" maxLength="25" title="chat username"></input>
+                    <br>
+                  <button style="width: 200px;height: 30px;margin-bottom:10px;position: relative;left: 350px" id="joinRoomBtn"> Join Room</button>
+              </div>
+         <div class="chatBoxDiv">
+        <textarea class = "userNamesBox" id="userNameBoxId" tabIndex="0" type="text">
+        </textarea>
+
+         <textarea class = "chatRoom" id = "messageBoxId" tabIndex="0" type="text" maxLength="1024" title="chat message" dir="auto" spellCheck="false">
+         </textarea>
+
+        </div>
+        <div class="messageInput">
+        <label style="color:black;font-size:35px;margin:10px;">Message </label>
+        <textarea id="inputMessageBoxId" style="width: 600px;height: 25px;"type="text" maxLength="1024"  placeholder="Type message here ..." title="messageInput"></textarea>
+        </div>
+    </div>
+</body>
+</html>

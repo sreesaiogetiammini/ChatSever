@@ -1,0 +1,43 @@
+
+.userName{
+    left: 700px;
+    margin:0;
+    position:relative;
+}
+.chatRoom {
+    margin-left: auto;
+    width: 800px;
+    height: 800px;
+    background-color: honeydew;
+    border: 2px solid black;
+    line-height: 30px;
+    font-family: "Academy Engraved LET";
+    font-size: larger;
+    resize: none;
+}
+
+
+.userNamesBox {
+    background-color: honeydew;
+    border: 2px solid black;
+    width: 400px;
+    height: 800px;
+    resize: none;
+    line-height: 50px;
+    font-family: Graphik;
+    font-size: xx-large;
+}
+
+.chatBoxDiv{
+    margin-left: 700px;
+    width: 1600px;
+    height: 900px;
+    resize: none;
+    position: center;
+}
+
+.messageInput{
+    margin-left: 1000px;
+    position: center;
+    right: 900px;
+}
